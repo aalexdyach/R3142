@@ -1,0 +1,20 @@
+@startuml
+class Move {
+}
+Move --> DamageMove
+Move --> StatusMove
+DamageMove ----> SpecialMove
+DamageMove ----> PhysicalMove
+StatusMove --> VenomDrench
+StatusMove --> Amnesia
+SpecialMove --> FocusBlast
+SpecialMove --> AncientPower
+SpecialMove ---> FireBlast
+SpecialMove --> FlashCannon
+SpecialMove ---> Discharge
+SpecialMove --> EnergyBall
+PhysicalMove --> Facade
+PhysicalMove --> PoisonJab
+PhysicalMove --> Pound
+StatusMove --> Swagger
+@enduml

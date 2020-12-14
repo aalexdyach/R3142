@@ -1,0 +1,11 @@
+@startuml
+class Pokemon{
+}
+Pokemon --> Vikavolt
+Pokemon --> Salazzle
+Salazzle --> Salandit
+Pokemon --> Registeel
+Vikavolt --> Charjabug
+Charjabug --> Grubbin
+
+@enduml
